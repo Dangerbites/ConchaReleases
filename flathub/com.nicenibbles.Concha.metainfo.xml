@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>com.nicenibbles.Concha</id>
+  <name>CONCHA</name>
+  <summary>Collaborative screenwriting and storyboarding platform</summary>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>LicenseRef-proprietary</project_license>
+
+  <description>
+    <p>
+      CONCHA is a collaborative screenwriting and storyboarding platform built
+      for creative teams who write, draw, and produce together. Whether you are
+      drafting a script, blocking out scenes in a storyboard, or roughing out
+      animatics, CONCHA keeps your whole team on the same page in real time.
+    </p>
+    <p>Features include:</p>
+    <ul>
+      <li>Real-time co-writing with multiple writers in the same document simultaneously</li>
+      <li>Panel-by-panel storyboarding linked directly to script sections</li>
+      <li>Flipnote Studio-inspired drawing program for sketching and animatics</li>
+      <li>3D world space reference for blocking scenes before drawing</li>
+      <li>In-app voice recording attached to script lines</li>
+      <li>Plugin support via .Luau for custom tools and export formats</li>
+      <li>Sign in with Google, GitHub, or Discord</li>
+    </ul>
+  </description>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Main editing view</caption>
+      <image>https://github.com/Dangerbites/ConchaReleases/blob/main/flathub/concha_screenshot1.png?raw=true</image>
+    </screenshot>
+    <screenshot>
+      <caption>Storyboard panel and drawing</caption>
+      <image>https://github.com/Dangerbites/ConchaReleases/blob/main/flathub/concha_screenshot2.png?raw=true</image>
+    </screenshot>
+  </screenshots>
+
+  <url type="homepage">https://nicenibbles.com/concha</url>
+  <url type="bugtracker">https://github.com/Dangerbites/ConchaReleases/issues</url>
+
+  <developer id="com.nicenibbles">
+    <name>Nice Nibbles Studio</name>
+  </developer>
+
+  <launchable type="desktop-id">com.nicenibbles.Concha.desktop</launchable>
+
+  <releases>
+    <release version="2.0.0" date="2026-05-28">
+      <description>
+        <p>Strawberry Concha Release 2.0. New features include LUAU plugin support,
+        PDF export, new themes, macOS build, and various bug fixes.</p>
+      </description>
+    </release>
+  </releases>
+
+  <content_rating type="oars-1.1"/>
+</component>

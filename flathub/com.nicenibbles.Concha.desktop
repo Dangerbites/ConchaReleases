@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=CONCHA
+Comment=Collaborative screenwriting and storyboarding platform
+Exec=concha
+Icon=com.nicenibbles.Concha
+Type=Application
+Categories=Office;Graphics;
+Keywords=screenwriting;storyboard;collaboration;script;
+StartupNotify=true
